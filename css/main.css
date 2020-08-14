@@ -1,0 +1,29 @@
+
+html, body {
+    height: 50%;
+  }
+  html, * {
+    box-sizing: border-box;
+    outline: none;
+
+  }
+  
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+div{
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+    padding: 0px; 
+}
+button:hover {
+    background-color: darkgrey;
+    color: white;
+}
+    
+  
